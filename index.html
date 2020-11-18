@@ -13,7 +13,7 @@
             <div class="col-md-6">
                 <div class="pin-generator half-width">
                     <input id="enterPin" class="form-control" type="number" disabled></input>
-                    <button id="generateBtn" onclick="generateBtn()" class="userBtn">Generate Pin</button>
+                    <button id="generateBtn" onclick="generateBtn() ; pinClear()" class="userBtn">Generate Pin</button>
                 </div>
             </div>
             
@@ -103,6 +103,9 @@
            let currentInput =  document.getElementById("inputFiled").value;
            const finalOutput = currentInput.slice(-1,0);
            document.getElementById("inputFiled").value = finalOutput;
+        }
+        function pinClear(){
+            AllClear()
         }
     </script>
     <footer class="footer">© Copyright 2020 All rights reserved to Md. Irtiza Hossain.</footer>
