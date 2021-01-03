@@ -1,6 +1,6 @@
 # **Pin Generator**
 
-Pin generator can create random pins for each user and that pin can be used to open a ecret door.
+Pin generator can create random pins for each user and that pin can be used to open a secret door.
 <br />
 [Live website](https://irtiza1999.github.io/Pin-Generator/)
 
